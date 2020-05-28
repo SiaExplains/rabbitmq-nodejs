@@ -3,10 +3,6 @@
 const QUEUES = {
     JOBS: 'JOBS',
 };
-
-const message = { name: 'siavash', age: 32 };
-
 module.exports = {
-    message: message,
     QUEUES: QUEUES,
 };
