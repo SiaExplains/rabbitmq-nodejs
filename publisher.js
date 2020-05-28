@@ -1,9 +1,5 @@
 const amqp = require('amqplib');
-const QUEUES = {
-    JOBS: 'JOBS',
-};
-
-const message = { name: 'siavash', age: 32 };
+const { QUEUES, message } = require('./queues');
 
 async function connect() {
     try {
